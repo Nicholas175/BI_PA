@@ -1,0 +1,1 @@
+Python scripts for extracting data from raw sources, transforming formats and units, and loading into the MySQL data warehouse. Incremental load logic should be added to minimize reloads and remove incorrect data if needed.
