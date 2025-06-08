@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS dwh;
+USE dwh;
+
+CREATE TABLE IF NOT EXISTS observations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    timestamp DATETIME NOT NULL,
+    temperature_c DECIMAL(5,2) NOT NULL
+);
